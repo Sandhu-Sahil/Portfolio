@@ -2,17 +2,17 @@
 // import NavigationBar from "../components/navigationBar";
 // import ResponsiveNavbar from "../components/responsiveNavbar";
 
-function LayoutMain(props){
+function LayoutMainAdmin(props){
     return(
         <>
             {/* <NavigationBar />
             <ResponsiveNavbar />
                 {props.children}
             <Footer /> */}
-            Layout
+            Layout Admin
             {props.children}
         </>
     )
 }
 
-export default LayoutMain;
+export default LayoutMainAdmin;
