@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
 
 function Navbar(props) {
     return(
@@ -22,7 +21,7 @@ function Navbar(props) {
                         </NavLink>
                     </div>
                     <div>
-                        <SocialIcon/>
+
                     </div>
                     <div>
 
