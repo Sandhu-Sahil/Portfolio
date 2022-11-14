@@ -14,6 +14,14 @@ const User = new mongoose.Schema({
         type:String,
         trim: true
     },
+    github : {
+        type:String,
+        trim: true
+    },
+    instagram : {
+        type:String,
+        trim: true
+    },
     date: Date,
     role: {
         type: String,

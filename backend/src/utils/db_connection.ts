@@ -1,4 +1,6 @@
 import mongoose from "mongoose";
-import variables from "../variables/variables";
+import dotEnv from "dotenv";
+dotEnv.config();
+const database = process.env.dburl as string;
 
-export default mongoose.connect(variables.dburl);
+export default mongoose.connect(database);
